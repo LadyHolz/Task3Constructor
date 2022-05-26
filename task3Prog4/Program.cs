@@ -13,10 +13,15 @@ namespace task3Prog4
             {
                 Console.WriteLine("£2 per Month");
             }
-            if (sub == "Y")
+            else if (sub == "Y")
             {
                 Console.WriteLine( "£20 a year");
             }
+            else
+            {
+                Console.WriteLine("Invalid");
+            }
+                    
         }
     }
 }

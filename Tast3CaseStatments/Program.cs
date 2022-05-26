@@ -12,14 +12,14 @@ namespace Tast3CaseStatments
 
             switch (score)
             {
-                case > 70:
-                    Console.WriteLine("Grade A");
+                case < 50:
+                    Console.WriteLine("fail");
                     break;
-                case > 50:            
+                case < 70:            
                     Console.WriteLine("Grade B");
                     break;
-                case <= 49:
-                    Console.WriteLine("fail");
+                case < 100:
+                    Console.WriteLine("Grade A");
                     break;
                 default:
                     Console.WriteLine("Incorrect value");
